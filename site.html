@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hassen — CV / Portfolio</title>
+  <link rel="stylesheet" href="hassen.css" />
+  <meta name="description" content="CV / Portfolio de Hassen : compétences, projets, parcours, hobbies et objectifs." />
+</head>
+
+<body>
+  <!-- Decorative blobs -->
+  <div class="bg">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Aller en haut">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Hassen</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#xp">Parcours</a>
+        <a href="#hobbies">Hobbies</a>
+        <a class="nav__cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero section reveal">
+      <div class="container hero__grid">
+        <div class="hero__left card reveal">
+          <p class="pill">CV interactif • HTML/CSS • Animations ✨</p>
+            <div class="hero__photo">
+             <!-- Remplace src plus tard par ta vraie photo -->
+                <img src="hassen.jpg" alt="Photo de Hassen" />
+            </div>
+          <h1>
+            Salut, moi c’est <span class="accent">Hassen</span> 👋<br />
+            <span class="muted">Créatif + Tech</span>
+          </h1>
+          <p class="lead">
+            J’aime construire des projets (web, code, lore, écriture) et apprendre en continu.
+            Ici tu retrouves mon profil, mes compétences, mes projets, et en bas mes hobbies + objectifs 🎯
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#projects">Voir mes projets</a>
+            <a class="btn btn--ghost" href="#contact">Me contacter</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <div class="stat__num">+X</div>
+              <div class="stat__label">Projets créatifs</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">C / Web</div>
+              <div class="stat__label">Tech & build</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">Story</div>
+              <div class="stat__label">Écriture & lore</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__card" aria-label="Carte profil">
+          <div class="profile card reveal">
+            <div class="profile__avatar" aria-hidden="true">
+              <span>H</span>
+            </div>
+
+            <div class="profile__meta">
+              <h2>Hassen</h2>
+              <p class="profile__role">Profil polyvalent • Créatif • Développeur en progression 🚀</p>
+            </div>
+
+            <div class="profile__chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">C</span>
+              <span class="chip">Raspberry Pi</span>
+              <span class="chip">Écriture</span>
+            </div>
+
+            <div class="profile__lines">
+              <div class="line">
+                <span class="k">Localisation</span>
+                <span class="v">France 🇫🇷</span>
+              </div>
+              <div class="line">
+                <span class="k">Disponibilité</span>
+                <span class="v">À renseigner</span>
+              </div>
+              <div class="line">
+                <span class="k">Email</span>
+                <span class="v"><a href="mailto:tonmail@example.com">tonmail@example.com</a></span>
+              </div>
+            </div>
+
+            <div class="profile__social">
+              <a class="iconbtn" href="#" title="GitHub" aria-label="GitHub">⌁</a>
+              <a class="iconbtn" href="#" title="LinkedIn" aria-label="LinkedIn">in</a>
+              <a class="iconbtn" href="#" title="YouTube" aria-label="YouTube">▶</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>À propos</h2>
+          <p>Quelques lignes pour expliquer qui tu es, ce que tu fais, ce que tu aimes 🔥</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Mon profil</h3>
+            <p>
+              Je suis quelqu’un de curieux et créatif : je mélange le code, les projets techniques,
+              et l’écriture d’univers. J’aime apprendre vite, tester, itérer et améliorer mes idées.
+            </p>
+            <ul class="list">
+              <li>💡 Créativité : écriture, lore, idées, narration</li>
+              <li>🛠️ Technique : C, scripts, Raspberry Pi, web</li>
+              <li>📈 Progression : rigueur, apprentissage, constance</li>
+            </ul>
+          </div>
+
+          <div class="card card--glow">
+            <h3>Ce que je cherche</h3>
+            <p>
+              Des projets où je peux être utile, progresser, et construire quelque chose de solide —
+              avec une touche de style et d’identité.
+            </p>
+            <div class="tags">
+              <span class="tag">Développement</span>
+              <span class="tag">Création</span>
+              <span class="tag">Systèmes & UI</span>
+              <span class="tag">Storytelling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Compétences</h2>
+          <p>Un format lisible, rapide, comme un CV ✅</p>
+        </div>
+
+        <div class="grid three">
+          <div class="card">
+            <h3>Web</h3>
+            <ul class="list">
+              <li>HTML sémantique</li>
+              <li>CSS (layout, responsive, animations)</li>
+              <li>UI propre & lisible</li>
+            </ul>
+            <div class="meter">
+              <span style="width: 70%"></span>
+            </div>
+            <small class="hint">Niveau : en progression 📈</small>
+          </div>
+
+          <div class="card">
+            <h3>Code</h3>
+            <ul class="list">
+              <li>C (bases solides, logique)</li>
+              <li>Scripts & debugging</li>
+              <li>Raspberry Pi / petits projets</li>
+            </ul>
+            <div class="meter">
+              <span style="width: 65%"></span>
+            </div>
+            <small class="hint">Niveau : en progression 🧠</small>
+          </div>
+
+          <div class="card">
+            <h3>Créatif</h3>
+            <ul class="list">
+              <li>Écriture : dark fantasy / univers</li>
+              <li>Worldbuilding & systèmes</li>
+              <li>Branding / identité visuelle</li>
+            </ul>
+            <div class="meter">
+              <span style="width: 85%"></span>
+            </div>
+            <small class="hint">Niveau : très à l’aise ✍️</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projets</h2>
+          <p>Ajoute ici tes projets (même petits), ça donne beaucoup de force au profil 💪</p>
+        </div>
+
+        <div class="grid three">
+          <article class="card project">
+            <div class="project__top">
+              <span class="badge">Tech</span>
+              <h3>Raspberry Pi LCD</h3>
+            </div>
+            <p>
+              Affichage de texte / menus / interactions sur écran LCD, logique C, GPIO, etc.
+            </p>
+            <div class="project__meta">
+              <span class="mini">C</span>
+              <span class="mini">GPIO</span>
+              <span class="mini">LCD</span>
+            </div>
+            <a class="link" href="#">Voir →</a>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <span class="badge">Créatif</span>
+              <h3>Univers narratif</h3>
+            </div>
+            <p>
+              Construction d’un univers, personnages, lore, systèmes magiques et narration.
+            </p>
+            <div class="project__meta">
+              <span class="mini">Story</span>
+              <span class="mini">Lore</span>
+              <span class="mini">World</span>
+            </div>
+            <a class="link" href="#">Voir →</a>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <span class="badge">Web</span>
+              <h3>CV interactif</h3>
+            </div>
+            <p>
+              Page CV moderne en HTML/CSS, animations, sections, responsive.
+            </p>
+            <div class="project__meta">
+              <span class="mini">HTML</span>
+              <span class="mini">CSS</span>
+              <span class="mini">Anim</span>
+            </div>
+            <a class="link" href="#">Voir →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE / TIMELINE -->
+    <section id="xp" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Parcours</h2>
+          <p>Format timeline simple (tu remplaces par tes vraies infos) 🧭</p>
+        </div>
+
+        <div class="timeline">
+          <div class="titem">
+            <div class="titem__dot"></div>
+            <div class="titem__content card">
+              <h3>2025 — Projet / Formation</h3>
+              <p class="muted">Description courte : ce que tu apprends, ce que tu construis.</p>
+            </div>
+          </div>
+
+          <div class="titem">
+            <div class="titem__dot"></div>
+            <div class="titem__content card">
+              <h3>2024 — Expérience / Études</h3>
+              <p class="muted">Description courte : responsabilités, apprentissages, résultats.</p>
+            </div>
+          </div>
+
+          <div class="titem">
+            <div class="titem__dot"></div>
+            <div class="titem__content card">
+              <h3>Avant — Bases</h3>
+              <p class="muted">Description courte : fondations, intérêts, évolution.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM: HOBBIES + OBJECTIVES -->
+    <section id="hobbies" class="section section--footerish reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Hobbies & Objectifs</h2>
+          <p>La partie “humaine” du CV : ce que tu aimes + où tu veux aller 🌙</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Hobbies</h3>
+            <ul class="list">
+              <li>🎮 Jeux narratifs & inspirations (ex : univers sombres)</li>
+              <li>✍️ Écriture & création d’univers</li>
+              <li>🛠️ Projets Raspberry Pi / DIY</li>
+              <li>🎧 Musiques (à personnaliser)</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Objectifs</h3>
+            <ul class="list">
+              <li>🎯 Monter en niveau en dev (C + Web)</li>
+              <li>📚 Apprendre quelque chose chaque jour</li>
+              <li>🧠 Renforcer la résilience mentale</li>
+              <li>🚀 Publier / présenter mes projets proprement</li>
+            </ul>
+
+            <div class="callout">
+              <strong>Phrase signature :</strong>
+              <span class="muted">“Construire, apprendre, affiner.”</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p>Tu peux mettre tes liens ici (mail, GitHub, LinkedIn, YouTube) 📩</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Coordonnées</h3>
+            <div class="contact__line">
+              <span class="k">Email</span>
+              <span class="v"><a href="mailto:tonmail@example.com">tonmail@example.com</a></span>
+            </div>
+            <div class="contact__line">
+              <span class="k">GitHub</span>
+              <span class="v"><a href="#">github.com/tonprofil</a></span>
+            </div>
+            <div class="contact__line">
+              <span class="k">LinkedIn</span>
+              <span class="v"><a href="#">linkedin.com/in/tonprofil</a></span>
+            </div>
+          </div>
+
+          <div class="card card--glow">
+            <h3>Mini message</h3>
+            <p class="muted">
+              Ici tu peux écrire un petit pitch : “Je suis dispo pour…”, “Je cherche…”, etc.
+            </p>
+            <a class="btn" href="mailto:tonmail@example.com">Envoyer un email ✉️</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year">2025</span> — Hassen • Fait avec HTML/CSS ✨</p>
+        <p class="muted">Astuce : remplace les textes “À renseigner” par tes infos.</p>
+      </div>
+    </footer>
+  </main>
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+       if (entry.isIntersecting) {
+         entry.target.classList.add('is-visible');
+         obs.unobserve(entry.target); // ✅ stop: ça ne re-trigger plus jamais
+       }
+     });
+   }, { threshold: 0.12 });
+
+  reveals.forEach(el => observer.observe(el));
+  </script>
+
+
+</body>
+</html>
