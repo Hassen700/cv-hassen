@@ -318,6 +318,81 @@ body.mnav-open .navToggle span:nth-child(3){
   animation: rise 1.05s ease both;
 }
 
+.brandWrap{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brandWrap{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Empêche le bouton langue de partir ailleurs */
+.langBtn{
+  position: static !important;
+  margin: 0 !important;
+}
+
+/* Option: plus facile à cliquer sur mobile */
+.langBtn{
+  min-width: 44px;
+  min-height: 44px;
+  display: grid;
+  place-items: center;
+}
+
+
+.langBtn{
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 50;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.langBtn:hover{
+  background: rgba(255,255,255,0.10);
+}
+
+.lang{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(255,255,255,0.15);
+  font-weight: 500;
+}
+
+.lang:last-child{
+  border-bottom: none;
+}
+
+.level{
+  font-size: .9rem;
+  opacity: .9;
+}
+
+.level.muted{
+  opacity: .6;
+}
+
 .hero__actions{
   display: flex;
   gap: 12px;
