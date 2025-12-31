@@ -336,19 +336,44 @@ body.mnav-open .navToggle span:nth-child(3){
   gap: 10px;
 }
 
-/* Empêche le bouton langue de partir ailleurs */
 .langBtn{
   position: static !important;
   margin: 0 !important;
 }
 
-/* Option: plus facile à cliquer sur mobile */
 .langBtn{
   min-width: 44px;
   min-height: 44px;
   display: grid;
   place-items: center;
 }
+
+#projects{
+  position: relative;
+  overflow: hidden; /* coupe la vidéo aux bords de la section */
+}
+
+#projects .container{
+  position: relative;
+  z-index: 2; /* contenu au-dessus */
+}
+
+#projects .bgVideo{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#projects .bgVideo__media{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(10px);
+  opacity: 0.18; /* opacité a gerer par moi meme */
+  transform: scale(1.08); /* évite les bords “vides” avec le blur */
+}
+
 
 
 .langBtn{

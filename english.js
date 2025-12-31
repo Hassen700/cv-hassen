@@ -338,7 +338,6 @@ function applyLang(lang) {
     }
   }
 
-  // Relance le typing avec le texte traduit
   restartTyping();
 }
 
