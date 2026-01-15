@@ -374,8 +374,6 @@ body.mnav-open .navToggle span:nth-child(3){
   transform: scale(1.08); /* évite les bords “vides” avec le blur */
 }
 
-
-
 .langBtn{
   position: fixed;
   top: 16px;
@@ -385,16 +383,28 @@ body.mnav-open .navToggle span:nth-child(3){
   width: 44px;
   height: 44px;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.10);
-  background: rgba(255,255,255,0.06);
-  backdrop-filter: blur(12px);
+
+  /* GLASS */
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  /* TEXTE */
+  color: #fff;              /* 👈 IMPORTANT */
+  font-weight: 600;
+  font-size: 0.85rem;
+
   cursor: pointer;
   display: grid;
   place-items: center;
+
+  transition: background .2s ease, border-color .2s ease;
 }
 
 .langBtn:hover{
-  background: rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.20);
+  border-color: rgba(255,255,255,0.4);
 }
 
 .lang{

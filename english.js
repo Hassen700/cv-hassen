@@ -61,7 +61,7 @@ const dict = {
     about_tag_4: "Storytelling",
 
     skills_title: "Compétences",
-    skills_sub: "Un format lisible, rapide, comme un CV ✅",
+    skills_sub: "Une vue claire et structurée de mes compétences techniques ✅",
     skills_web_title: "Web",
     skills_web_li1: "HTML sémantique",
     skills_web_li2: "CSS (layout, responsive, animations)",
@@ -96,13 +96,15 @@ const dict = {
     mini_anim: "Anim",
 
     xp_title: "Parcours",
-    xp_sub: "Format timeline simple (tu remplaces par tes vraies infos) 🧭",
-    xp_2025_title: "2025 — Projet / Formation",
-    xp_2025_desc: "Description courte : ce que tu apprends, ce que tu construis.",
-    xp_2024_title: "2024 — Expérience / Études",
-    xp_2024_desc: "Description courte : responsabilités, apprentissages, résultats.",
-    xp_before_title: "Avant — Bases",
-    xp_before_desc: "Description courte : fondations, intérêts, évolution.",
+    xp_sub: "Mon parcours étape par étape, avec curiosité et ambition🔥",
+    xp_2026_title: "2026 — ISCODE",
+    xp_2026_desc: "Formation Bachelor en développement web à ISCODE, orientée conception d’applications, développement front-end et back-end, et réalisation de projets web professionnels.",
+    xp_2024_2025_title: "2024 / 2025 — Préparation École 42",
+    xp_2024_desc: "Participation aux tests de sélection de l’École 42. Entraînement au langage C afin d’acquérir des bases solides (logique, fonctions, pointeurs) en préparation de la piscine.",
+    xp_2020_2021_title: "2020 / 2021 — INSTIC",
+    xp_2020_2021_desc: "Formation d’infographiste metteur en page à l’INSTIC, préparant à l’obtention d’un titre certifié de niveau 4. Développement de compétences en mise en page, identité visuelle et conception graphique.",
+    xp_2018_2020_title: "2018 / 2020 — Eden School",
+    xp_2018_2020_desc: "Formation de deux ans en développement web à Eden School, préparant à l’obtention d’un titre de niveau 4. Apprentissage des technologies front-end et back-end, avec mise en pratique sur des projets concrets.",
 
     hob_title: "Hobbies & Objectifs",
     hob_sub: "La partie “humaine” du CV : ce que tu aimes + où tu veux aller 🌙",
@@ -110,7 +112,8 @@ const dict = {
     hob_li_1: "🎮 Jeux narratifs & inspirations (ex : univers sombres)",
     hob_li_2: "✍️ Écriture & création d'univers",
     hob_li_3: "✈️ Voyage",
-    hob_li_4: "🎧 Musiques (à personnaliser)",
+    hob_li_4: "🎂 Cuisine",
+    hob_li_5: "💪 Sport",
     obj_title: "Objectifs",
     obj_li_1: "🎯 Monter en niveau en dev (C + Web)",
     obj_li_2: "📚 Apprendre quelque chose chaque jour",
@@ -137,11 +140,11 @@ const dict = {
     contact_k_github: "GitHub",
     contact_k_linkedin: "LinkedIn",
     contact_msg_title: "Mini message",
-    contact_msg_p: "Ici tu peux écrire un petit pitch : “Je suis dispo pour…”, “Je cherche…”, etc.",
+    contact_msg_p: "Un court message pour me présenter votre projet, une opportunité ou simplement échanger.",
     contact_send_mail: "Envoyer un email ✉️",
 
-    footer_line: "© 2025 — Hassen • Fait avec HTML/CSS ✨",
-    footer_tip: "Astuce : remplace les textes “À renseigner” par tes infos."
+    footer_line: "© 2025 — Hassen • Fait avec HTML/CSS/JS ✨",
+    footer_tip: "Portfolio personnel — en constante évolution"
   },
 
   en: {
@@ -202,7 +205,7 @@ const dict = {
     about_tag_4: "Storytelling",
 
     skills_title: "Skills",
-    skills_sub: "A clean, fast format — like a CV ✅",
+    skills_sub: "An overview of the skills I develop through my projects and learning ✅",
     skills_web_title: "Web",
     skills_web_li1: "Semantic HTML",
     skills_web_li2: "CSS (layout, responsive, animations)",
@@ -237,13 +240,15 @@ const dict = {
     mini_anim: "Anim",
 
     xp_title: "Experience",
-    xp_sub: "Simple timeline format (replace with your real info) 🧭",
-    xp_2025_title: "2025 — Project / Training",
-    xp_2025_desc: "Short description: what you learn, what you build.",
-    xp_2024_title: "2024 — Experience / Studies",
-    xp_2024_desc: "Short description: responsibilities, learnings, results.",
-    xp_before_title: "Before — Foundations",
-    xp_before_desc: "Short description: basics, interests, growth.",
+    xp_sub: "My journey step by step, driven by curiosity and ambition 🔥",
+    xp_2026_title: "2026 — ISCODE",
+    xp_2026_desc: "Bachelor’s degree in web development at ISCODE, focused on application design, front-end and back-end development, and the delivery of professional web projects.",
+    xp_2024_2025_title: "2024 / 2025 — École 42 Preparation",
+    xp_2024_desc: "Participation in the École 42 selection tests. Intensive practice in the C programming language to build strong foundations (logic, functions, pointers) in preparation for the Piscine.",
+    xp_2020_2021_title: "2020 / 2021 — INSTIC",
+    xp_2020_2021_desc: "Training as a graphic designer and layout artist at INSTIC, leading to a Level 4 certified qualification. Development of skills in layout design, visual identity, and graphic conception.",
+    xp_2018_2020_title: "2018 / 2020 — Eden School",
+    xp_2018_2020_desc: "Two-year training program in web development at Eden School, leading to a Level 4 qualification. Learning front-end and back-end technologies, applied through hands-on projects.",
 
     hob_title: "Hobbies & Goals",
     hob_sub: "The human side of the CV: what you love + where you want to go 🌙",
@@ -251,7 +256,8 @@ const dict = {
     hob_li_1: "🎮 Narrative games & inspirations (e.g. dark universes)",
     hob_li_2: "✍️ Writing & worldbuilding",
     hob_li_3: "✈️ Travel",
-    hob_li_4: "🎧 Music (customize)",
+    hob_li_4: "🎂 Cooking",
+    hob_li_5: "💪 Sport",
     obj_title: "Goals",
     obj_li_1: "🎯 Level up in dev (C + Web)",
     obj_li_2: "📚 Learn something every day",
@@ -278,11 +284,11 @@ const dict = {
     contact_k_github: "GitHub",
     contact_k_linkedin: "LinkedIn",
     contact_msg_title: "Quick message",
-    contact_msg_p: "Here you can write a short pitch: “I’m available for…”, “I’m looking for…”, etc.",
+    contact_msg_p: "A short message to discuss a project, an opportunity, or simply get in touch",
     contact_send_mail: "Send an email ✉️",
 
-    footer_line: "© 2025 — Hassen • Made with HTML/CSS ✨",
-    footer_tip: "Tip: replace the “to fill” texts with your info."
+    footer_line: "© 2025 — Hassen • Made with HTML/CSS/JS ✨",
+    footer_tip: "Personal portfolio — constantly evolving"
   }
 };
 
